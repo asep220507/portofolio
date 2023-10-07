@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: limegreen;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* AWAL SELECTION*/
+.isitentangsaya1::selection,
+.isimariberteman::selection {
+  color: white;
+  background-color: limegreen;
+}
+
+.nama::selection,
+.tentangsaya::selection {
+  color: limegreen;
+  background-color: black;
+}
+
+/* AKHIR SELECTION*/
+
+
+.wadah {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  background-color: #f5f5f5;
+  position: fixed;
+}
+
+.wadahh {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.nama {
+  color: limegreen;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 2%;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Sofia Sans', sans-serif;
+  font-weight: bold;
+}
+
+li:hover {
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  color: aquamarine;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+/* AKHIR NAVBAR */
+
+/* AWAL IDENTITAS */
+.wadah1 {
+  float: left;
+  height: 400px;
+  margin-left: 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.teks1 {
+  margin-top: 20%;
+  color: green;
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.fullname {
+  font-weight: bold;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  width: 300px;
+  background-image: linear-gradient(to right, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teks2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #343434;
+  margin-bottom: 5px;
+  margin-left: 5%;
+}
+
+.teks3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-bottom: 10%;
+  font-size: 12px;
+  margin-left: 5%;
+}
+
+.btn {
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: rgb(0, 247, 111);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.1s ease-in-out;
+  margin-left: 5%;
+}
+
+.btn:active {
+  height: 35px;
+  width: 130px;
+  color: darkgrey;
+  background-color: rgb(115, 255, 225);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 6%;
+  margin-top: 2px;
+}
+
+/* AWAL WADAH 2 */
+.wadah2 {
+  height: auto;
+  width: 50%;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+}
+
+.pp {
+  height: 354px;
+  width: 354px;
+}
+
+/* AWAL WADAH 3 */
+.wadah3 {
+  float: left;
+  height: 500px;
+  margin-left: 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tentangsaya {
+  color: limegreen;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.isitentangsaya {
+  color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.isitentangsaya1 {
+  color: grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* AWAL WADAH 4 */
+.wadah4 {
+  float: left;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 27.5px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mariberteman {
+  color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.isimariberteman {
+  color: grey;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wadahsosmed {
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.wadahakun {
+  border: 2px solid black;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  margin-right: 10%;
+  justify-content: center;
+  display: flex;
+}
+
+.fb {
+  margin-top: 2px;
+  height: 35px;
+  width: 35px;
+}
+
+.wa {
+  margin-top: 2px;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+}
+
+.email {
+  margin-top: 2px;
+  height: 35px;
+  width: 35px;
+  border-radius: 35px;
+}
+
+@media(max-width:768px) {
+  .nama {
+    margin-left: 3%;
+    margin-right: 10%;
+  }
+  
+  .container {
+    display: column;
+  }
+  
+  .wadah1 {
+    margin-left: 5%;
+    width: 95%;
+    height: 40vh;
+  }
+  
+  .wadah2 {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 15%;
+  }
+  
+  
+  .wadah3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  
+  .wadah4 {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 5%;
+  }
+  
+  .pp {
+    height: 400px;
+    width: 400px;
+  }
+}
